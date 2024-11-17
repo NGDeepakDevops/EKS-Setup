@@ -11,7 +11,7 @@ mkdir -p /opt/kubectlbinary
 cd /opt/kubectlbinary
 
 # Step 3: List contents (optional)
-ll
+ls -l
 
 # Step 4: Download kubectl binary
 curl -O https://s3.us-west-2.amazonaws.com/amazon-eks/1.31.0/2024-09-12/bin/linux/amd64/kubectl
